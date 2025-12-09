@@ -32,6 +32,8 @@ modules:
     build-commands:
       - cp -a stoat-desktop /app/
       - install -Dm775 stoat-desktop.sh /app/bin/stoat-desktop
+      - install -D icon.png /app/share/icons/hicolor/256x256/apps/chat.stoat.StoatDesktop.png
+      - install -D chat.stoat.StoatDesktop.desktop -t /app/share/applications/
     sources:
       - type: archive
         url: https://github.com/stoatchat/for-desktop/releases/download/v1.1.11/Stoat-linux-x64-1.1.11.zip
@@ -41,3 +43,9 @@ modules:
         dest-filename: stoat-desktop.sh
         commands:
         - zypak-wrapper /app/stoat-desktop/stoat-desktop "$@"
+      - type: file
+        url: https://raw.githubusercontent.com/stoatchat/assets/master/desktop/icon%402x.png
+        sha256: 6b369bcd3c32ac1e19130205b3f35b4490899a12b718e99eded234015535837f
+        dest-filename: icon.png
+      - type: file
+        path: chat.stoat.StoatDesktop.desktop

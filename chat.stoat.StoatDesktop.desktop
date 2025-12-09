@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Stoat
+Exec=/usr/bin/flatpak run --arch=x86_64 --command=stoat-desktop chat.stoat.StoatDesktop
+Type=Application
+Icon=chat.stoat.StoatDesktop
+Categories=Internet;
