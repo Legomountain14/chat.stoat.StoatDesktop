@@ -36,8 +36,14 @@ modules:
       - install -D chat.stoat.StoatDesktop.desktop -t /app/share/applications/
     sources:
       - type: archive
+        only-arches: [x86_64]
         url: https://github.com/stoatchat/for-desktop/releases/download/v1.1.11/Stoat-linux-x64-1.1.11.zip
         sha256: 0f352cb4f1c6dc99ad438f789ee545151882d70f7e68e1b90a6679038854c050
+        dest: stoat-desktop
+      - type: archive
+        only-arches: [aarch64]
+        url: https://github.com/stoatchat/for-desktop/releases/download/v1.1.11/Stoat-linux-arm64-1.1.11.zip
+        sha256: 7f8b97bf79547716d316d90f5d0a347f3b153c2062c5953a5e19d9e0a5555319
         dest: stoat-desktop
       - type: script
         dest-filename: stoat-desktop.sh

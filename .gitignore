@@ -1,3 +1,4 @@
 .flatpak*
 .vscode
 build
+Stoat-linux-*
