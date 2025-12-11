@@ -2,3 +2,6 @@
 .vscode
 build
 Stoat-linux-*
+builddir
+repo
+icon*

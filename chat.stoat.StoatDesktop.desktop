@@ -1,6 +1,11 @@
 [Desktop Entry]
-Name=Stoat
-Exec=stoat-desktop
+Version=1.0
 Type=Application
+
+Name=Stoat
+Comment=Stoat is an open-source, user-first chat platform.
+Categories=Network;Chat;
+
 Icon=chat.stoat.StoatDesktop
-Categories=Internet;
+Exec=stoat-desktop
+Terminal=false

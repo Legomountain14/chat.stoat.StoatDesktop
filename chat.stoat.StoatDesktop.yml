@@ -6,7 +6,7 @@ base: org.electronjs.Electron2.BaseApp
 base-version: '25.08'
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.node24
-command: /app/bin/stoat-desktop
+command: stoat-desktop
 separate-locales: false
 finish-args:
 - --share=ipc

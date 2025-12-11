@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>chat.stoat.StoatChat</id>
+  
+  <name>Stoat</name>
+  <summary>Stoat is an open-source, user-first chat platform.</summary>
+  
+  <metadata_license>MIT</metadata_license>
+  <project_license>AGPL-3.0-only</project_license>
+  
+  <description>
+    <p>
+      Stoat is one of the best ways to stay connected with your friends and community without sacrificing any usability. We focus only on the user, and you can be sure that your conversations are confidential and your data is secure.
+    </p>
+  </description>
+  
+  <launchable type="desktop-id">chat.stoat.StoatChat.desktop</launchable>
+</component>
